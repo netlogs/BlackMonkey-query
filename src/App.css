@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -15,7 +18,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,6 +30,34 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  font-size: 25px; /* 增大字体 */
+  position: fixed; /* 固定位置 */
+  bottom: 40px; /* 距离底部20px */
+  left: 0;
+  right: 0;
+}
+
+.App-footer a {
+  color: #61dafb;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-footer a:hover {
+  text-decoration: underline;
+}
+
+.App-footer svg {
+  margin-right: 10px;
+  font-size: 24px; /* 增大图标大小 */
 }
 
 @keyframes App-logo-spin {

@@ -6,9 +6,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>区块链地址查询</h1>
+        <h1>Wukong Token领取查询</h1>
         <AddressChecker />
       </header>
+      <footer className="App-footer">
+        <a href="https://twitter.com/liarpzu" target="_blank" rel="noopener noreferrer">
+           在 X 上关注我，随时获得帮助 @liarpzu
+        </a>
+      </footer>
     </div>
   );
 }
