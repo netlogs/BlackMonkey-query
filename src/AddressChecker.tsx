@@ -70,7 +70,7 @@ const AddressChecker = () => {
       <textarea
         value={addresses}
         onChange={(e) => setAddresses(e.target.value)}
-        placeholder="请输入区块链地址，每行一个"
+        placeholder="请输入钱包地址，每行一个"
         rows={5}
         cols={50}
       />
